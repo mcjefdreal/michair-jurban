@@ -42,11 +42,25 @@
 <br>
 
 <h1 class="font-bold text-xl">Dataset</h1>
-<ul>
-    <li>
-        <a href="https://docs.google.com/document/d/1T8vS-I4z81oVvPwyZN_A27jxaO5ILBkmz9-KCmKhclE/edit?tab=t.0">Dataset Google document</a>
-    </li>
-    <li>
-        <a href="https://docs.google.com/spreadsheets/d/1_RwuhXFlo51kelxt1T5t7qZmq8JKDoqIQpRssywSPFs/edit?gid=0#gid=0">Dataset Google sheet</a>
-    </li>
-</ul>
+<p>
+This data set includes Air Quality Index (AQI) data from January 2025 to May 2025 for cities in the Philippines. 
+It includes hourly snapshots of the AQI, as well as different components, including CO, NO, NO2, O3, SO2, NH3, PM2.5, and 
+PM10 measurements per city.
+</p>
+
+<br>
+
+<p>
+The data set for AQI includes 409,554 individual data points (rows), and GRDP data for 34 different cities (rows) in the Philippines.
+</p>
+
+<br>
+
+<p>
+Preprocessing steps for this data set included compiling the separate AQI source data sets for the different months into one sheet. 
+Additionally, the city names for the GRDP set were changed to match the city names in the AQI data set.
+</p>
+
+<br>
+
+<a href="https://docs.google.com/spreadsheets/d/1_RwuhXFlo51kelxt1T5t7qZmq8JKDoqIQpRssywSPFs/edit?gid=0#gid=0">Dataset Google sheet</a>
