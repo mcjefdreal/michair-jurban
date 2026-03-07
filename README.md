@@ -1,2 +1,8 @@
-# michair-jurban
-CS 132 project
+Michair Jurban
+```sh
+# install dependencies
+pnpm install
+
+# run dev environment
+pnpm run dev
+```
