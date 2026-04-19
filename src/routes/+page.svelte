@@ -78,6 +78,12 @@
         <img src={GDPAQICorrelation} alt="Pollutant bar graph"/>
     </div>
     
-    
+    <div class="z-20 text-left text-light-cyan shadow-lg bg-blue-slate p-4">
+        <h1 class="font-bold text-5xl mb-4">About Us</h1>
+        <div class="flex flex-col gap-2">
+            <p class="text-2xl">Jelo Fan, MJ Pascual, and MJ Real are BS Computer Science students from the University of the Philippines Diliman.</p>
+        </div>
+    </div>
+
     
 </div>
