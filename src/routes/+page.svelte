@@ -1,5 +1,8 @@
 <script>
     import PollutionHeroPic from "$lib/assets/hero_pic_pollution.jpg";
+    import AQITrends from "$lib/assets/plots/aqi_trends_2025.png";
+    import PollutantTrends from "$lib/assets/plots/pollutant_trends_2025.png";
+    import GDPAQICorrelation from "$lib/assets/plots/gdp_aqi_correlation.png";
 </script>
 <div class="flex flex-col">
     <div class="absolute top-0 h-screen w-full z-1 overflow-hidden">
@@ -63,23 +66,16 @@
     </div>
 
     <div class="z-20 text-left text-jet-black flex flex-col gap-4 text-center shadow-lg bg-light-cyan p-4">
-        <h1 class="font-bold text-5xl mb-4">Exploration</h1>
+        <h1 class="font-bold text-5xl mb-4">Exploration and Results</h1>
         <p class="text-2xl">
-            This data set includes Air Quality Index (AQI) data from January 2025 to May 2025 for cities in the Philippines. 
-            It includes hourly snapshots of the AQI, as well as different components, including CO, NO, NO2, O3, SO2, NH3, PM2.5, 
-            and PM10 measurements per city. The data set also includes Gross Domestic Product (GDP) data for different cities in the 
-            Philippines from 2024. Note that as GDP data is only released annually, there is not yet complete GDP data specific to cities 
-            for 2025, so the 2024 data set was chosen for analysis as the most updated information.
+            Plots for Research Question 1 (AQI, Pollutant Counts):
         </p>
+        <img src={AQITrends} alt="AQI plot"/>
+        <img src={PollutantTrends} alt="Pollutant bar graph"/>
         <p class="text-2xl">
-            The data set for AQI includes 409,554 individual data points (rows), and GDP data for 34 different cities (rows) in the Philippines.
+            Plot for Research Question 2 (GDP-AQI Correlation):
         </p>
-        <p class="text-2xl">
-            Preprocessing steps for this data set included compiling the separate AQI source data sets for the different months into one sheet. 
-            Additionally, the city names for the GDP set were changed to match the city names in the AQI data set. Cities found in the GDP set 
-            but not in the AQI set were also removed from the GDP set.
-        </p>
-        <a href="https://docs.google.com/spreadsheets/d/1_RwuhXFlo51kelxt1T5t7qZmq8JKDoqIQpRssywSPFs/edit?gid=0#gid=0">Dataset Google sheet</a>
+        <img src={GDPAQICorrelation} alt="Pollutant bar graph"/>
     </div>
     
     
