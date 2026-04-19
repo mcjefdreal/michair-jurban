@@ -7,8 +7,8 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<div class="p-5 bg-[#1da1f2]">
-	<header class="z-50 sticky inset-x-0 p-3 top-3">
+<div class="bg-blue-slate">
+	<header class="z-50 sticky inset-x-0 top-0">
 		<NavBar />
 	</header>
 	{@render children()}
