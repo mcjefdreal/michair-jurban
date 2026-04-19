@@ -2,18 +2,17 @@
     import PollutionHeroPic from "$lib/assets/hero_pic_pollution.jpg";
 </script>
 <div class="flex flex-col">
-    <div class="sticky top-0 z-1 w-auto h-full overflow-hidden">
+    <div class="sticky top-0 w-full z-1 overflow-hidden relative">
         <img class="w-full" src={PollutionHeroPic} alt="pollution" />
-    </div>
-
-    <div class="z-20 absolute w-auto h-full text-light-cyan text-center shadow-lg bg-jet-black/70 p-4 flex flex-col justify-center gap-4">
-        <div class="flex flex-col gap-2">
-            <h1 class="font-bold text-8xl">michAIR jURBAN:</h1>
-            <h1 class="text-4xl">Exploring the correlation between a region's GDP and the Air Quality Indices (AQI) of its cities</h1>
+        <div class="absolute top-0 h-full z-20 text-light-cyan text-center shadow-lg bg-jet-black/70 p-4 flex flex-col justify-center gap-4">
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-8xl">michAIR jURBAN:</h1>
+                <h1 class="text-4xl">Exploring the correlation between a region's GDP and the Air Quality Indices (AQI) of its cities</h1>
+            </div>
+            <span><b>Typst Sheet:</b> Jelo Fan, MJ Pascual, MJ Real</span>
         </div>
-        <span><b>Typst Sheet:</b> Jelo Fan, MJ Pascual, MJ Real</span>
+        
     </div>
-    
     <!-- card for research questions -->
     <div class="z-20 text-jet-black text-left shadow-lg bg-light-blue p-4">
         <h1 class="font-bold text-5xl mb-4">Research Questions</h1>
