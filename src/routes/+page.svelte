@@ -3,6 +3,7 @@
     import AQITrends from "$lib/assets/plots/aqi_trends_2025.png";
     import PollutantTrends from "$lib/assets/plots/pollutant_trends_2025.png";
     import GDPAQICorrelation from "$lib/assets/plots/gdp_aqi_correlation.png";
+    import Nutshell from "$lib/assets/plots/nutshellplot.png";
 </script>
 <div class="flex flex-col">
     <div class="absolute top-0 h-screen w-full z-1 overflow-hidden">
@@ -67,11 +68,18 @@
 
     <div class="z-20 text-left text-jet-black flex flex-col gap-4 text-center shadow-lg bg-light-cyan p-4">
         <h1 class="font-bold text-5xl mb-4">Exploration and Results</h1>
+
+        <p class="text-2xl">
+            Nutshell Plot:
+        </p>
+        <img src={Nutshell} alt="Nutshell plot"/>
+
         <p class="text-2xl">
             Plots for Research Question 1 (AQI, Pollutant Counts):
         </p>
         <img src={AQITrends} alt="AQI plot"/>
         <img src={PollutantTrends} alt="Pollutant bar graph"/>
+
         <p class="text-2xl">
             Plot for Research Question 2 (GDP-AQI Correlation):
         </p>
