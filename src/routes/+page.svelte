@@ -22,7 +22,7 @@
     <div class="z-20 text-jet-black text-left shadow-lg bg-light-blue p-4">
         <h1 class="font-bold text-5xl mb-4">Research Questions</h1>
         <div class="flex flex-col gap-2">
-            <p class="text-2xl">What are the Air Quality Indices and air pollutant counts of the different cities in the Philippines from January to May of 2025?</p>
+            <p class="text-2xl">How do Air Quality Indices and pollutant concentrations vary across cities in the Philippines from January to May 2025?</p>
             <p class="text-2xl">In the Philippines, what is the correlation between a city's Gross Domestic Product (GDP) and its Air Quality Index?</p>
         </div>
     </div>
@@ -33,7 +33,7 @@
         <p class="text-2xl">
             Regions with a higher GDP per capita will have more financial resources to spend on infrastructure 
             (e.g. transportation infrastructure, green spaces, and monitoring systems), 
-            thus they would have a higher Air Quality Index than regions with a lower GDP per capita.
+            thus they would have a lower Air Quality Index than regions with a lower GDP per capita.
         </p>
     </div>
     
@@ -47,7 +47,7 @@
     </div>
 
     <div class="z-20 text-right text-light-cyan flex flex-col gap-4 text-center shadow-lg bg-jet-black p-4">
-        <h1 class="font-bold text-5xl mb-4">Dataset</h1>
+        <h1 class="font-bold text-5xl mb-4">Dataset Description</h1>
         <p class="text-2xl">
             This data set includes Air Quality Index (AQI) data from January 2025 to May 2025 for cities in the Philippines. 
             It includes hourly snapshots of the AQI, as well as different components, including CO, NO, NO2, O3, SO2, NH3, PM2.5, 
@@ -58,12 +58,28 @@
         <p class="text-2xl">
             The data set for AQI includes 409,554 individual data points (rows), and GDP data for 34 different cities (rows) in the Philippines.
         </p>
+
+        <h1 class="font-bold text-5xl mb-4">Data Collection</h1>
+        <p class="text-2xl">
+            The AQI data set was sourced from Kaggle, a public platform for data. Specifically, the data collection process for the Kaggle data set
+            used data extracted from <a href="https://openweathermap.org/">OpenWeather</a>.
+        </p>
+        <p class="text-2xl">
+            The GDP data was sourced from OpenSTAT, an open data platform that allows PSA to share data under an open data license.
+        </p>
         <p class="text-2xl">
             Preprocessing steps for this data set included compiling the separate AQI source data sets for the different months into one sheet. 
             Additionally, the city names for the GDP set were changed to match the city names in the AQI data set. Cities found in the GDP set 
             but not in the AQI set were also removed from the GDP set.
         </p>
-        <a href="https://docs.google.com/spreadsheets/d/1_RwuhXFlo51kelxt1T5t7qZmq8JKDoqIQpRssywSPFs/edit?gid=0#gid=0">Dataset Google sheet</a>
+
+        <h1 class="font-bold text-5xl mb-4">Links</h1>
+        <p class="text-2xl">
+            The following are links to the data sources for both the AQI and GDP data used for the analysis:
+        </p>
+        <a href="https://docs.google.com/spreadsheets/d/1_RwuhXFlo51kelxt1T5t7qZmq8JKDoqIQpRssywSPFs/edit?gid=0#gid=0">Compiled Dataset Google Sheet</a>
+        <a href="https://www.kaggle.com/datasets/bwandowando/philippine-cities-air-quality-index-data-2026">Kaggle Dataset for AQI Snapshots</a>
+        <a href="https://openstat.psa.gov.ph/Database/Gross-Regional-Domestic-Product">OpenSTAT GDP Data</a>
     </div>
 
     <div class="z-20 text-left text-jet-black flex flex-col gap-4 text-center shadow-lg bg-light-cyan p-4">
