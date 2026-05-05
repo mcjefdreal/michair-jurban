@@ -4,6 +4,7 @@
     import PollutantTrends from "$lib/assets/plots/pollutant_trends_2025.png";
     import GDPAQICorrelation from "$lib/assets/plots/gdp_aqi_correlation.png";
     import Nutshell from "$lib/assets/plots/nutshellplot.png";
+    import Hypothesis from "$lib/assets/hypothesisTest.jpeg";
 </script>
 <div class="flex flex-col">
     <div class="absolute top-0 h-screen w-full z-1 overflow-hidden">
@@ -100,6 +101,11 @@
             Plot for Research Question 2 (GDP-AQI Correlation):
         </p>
         <img src={GDPAQICorrelation} alt="Pollutant bar graph"/>
+
+        <p class="text-2xl">
+            Hypothesis Testing
+        </p>
+        <img src={Hypothesis} alt="Hypothesis testing"/>
     </div>
     
     <div class="z-20 text-left text-light-cyan shadow-lg bg-blue-slate p-4">
