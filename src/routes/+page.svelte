@@ -33,6 +33,41 @@
     </div>
 </section>
 
+<section id="introduction-story" class="bg-surface-alt py-20 md:py-28">
+    <div class="max-w-4xl mx-auto px-6">
+        <div class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-3">Introduction and Background</h2>
+            <div class="w-16 h-1 bg-accent rounded-full"></div>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div>
+                <h3 class="text-xl font-semibold text-text-primary mb-4">The Story: Why do we care about air quality?</h3>
+                <div class="p-6 bg-surface rounded-xl border border-border shadow-sm">
+                    <p class="text-text-secondary leading-relaxed mb-4">
+                        <b>Air pollution is considered a major environmental risk factor to human health</b>, driving death and disability as a result of non-communicable diseases. 
+                        When inhaled, fine particulate matter (PM<sub>2.5</sub>) is capable of penetrating the lungs and into the bloodstream, increasing risk of cardiovascular and respiratory diseases.
+                        These disproportionately affects those with preexisting health conditions, especially children and the elderly.
+                        In 2021, the World Health Organization (2025) estimated that <b>4.3 million lives were lost</b> to causes related to ambient air pollution from PM<sub>2.5</sub>.
+                        In 2019, causes related to air pollution were responsible for <b>66,230 deaths in the Philippines, 1310 of which were children (Myllyvirta et al., 2023).</b>
+                    </p>
+                    <p class="text-text-secondary leading-relaxed mb-4">
+                        In a country like the Philippines, which experiences a growing number of fossil fuel pollution sources across different sectors,
+                        it is crucial to quantify and monitor air pollution and its impacts on human health, the environment, and the economy.
+                        To tackle the ever-expanding burden of industrialization and urbanization, the WHO notes that long-term, robust, and well-functioning monitoring systems/infrastructure 
+                        are required to inform policy decisions.
+                    </p>
+                    <p class="text-text-secondary leading-relaxed">
+                        In line with Sustainable Development Goal 11: Sustainable Cities and Communities, our project is one that
+                        analyzes the Philippines' current capabilities to monitor its air pollution crisis. The GDP of various regions in the Philippines
+                        informs us of the monetary value of the goods that the country produces. With this, we hope to shed light on how regional development and
+                        productivity relates to our air quality, and in turn, our lives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Research Questions -->
 <section id="research-questions" class="bg-surface py-20 md:py-28">
     <div class="max-w-4xl mx-auto px-6">
