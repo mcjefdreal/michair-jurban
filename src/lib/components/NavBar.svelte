@@ -2,6 +2,7 @@
 	let mobileOpen = $state(false);
 
 	const links = [
+		{ label: 'Introduction', href: '#introduction-story' },
 		{ label: 'Research Questions', href: '#research-questions' },
 		{ label: 'Hypothesis', href: '#hypothesis' },
 		{ label: 'Objectives', href: '#objectives' },
