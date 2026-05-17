@@ -8,6 +8,7 @@
 		{ label: 'Objectives', href: '#objectives' },
 		{ label: 'Data', href: '#data' },
 		{ label: 'Results', href: '#results' },
+		{ label: 'Model', href: '#model' },
 		{ label: 'Discussion', href: '#discussion' },
 		{ label: 'About', href: '#about' }
 	];
