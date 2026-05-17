@@ -47,8 +47,8 @@
                         <b>Air pollution is considered a major environmental risk factor to human health</b>, driving death and disability as a result of non-communicable diseases. 
                         When inhaled, fine particulate matter (PM<sub>2.5</sub>) is capable of penetrating the lungs and into the bloodstream, increasing the risk of cardiovascular and respiratory diseases.
                         These disproportionately affect those with preexisting health conditions, especially children and the elderly.
-                        In 2021, the World Health Organization (2025) estimated that <b>4.3 million lives were lost</b> to causes related to ambient air pollution from PM<sub>2.5</sub>.
-                        In 2019, causes related to air pollution were responsible for <b>66,230 deaths in the Philippines, 1310 of which were children (Myllyvirta et al., 2023).</b>
+                        In 2021, the <a href="https://www.who.int/publications/i/item/B09646" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline font-medium">World Health Organization (2026)</a> estimated that <b>4.3 million lives were lost</b> to causes related to ambient air pollution from PM<sub>2.5</sub>.
+                        In 2019, causes related to air pollution were responsible for <b>66,230 deaths in the Philippines, 1310 of which were children <a href="https://energyandcleanair.org/publication/cost-of-air-pollution-in-the-philippines/" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline font-medium">(Myllyvirta et al., 2023)</a>.</b>
                     </p>
                     <p class="text-text-secondary leading-relaxed mb-4">
                         In a country like the Philippines, which experiences a growing number of fossil fuel pollution sources across different sectors,
