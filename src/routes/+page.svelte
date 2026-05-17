@@ -392,6 +392,12 @@
                 When no action is taken with the resources that scientific analyses can provide us, it is likely that the required infrastructure and policy changes
                 required for improving air quality will not be created.
             </p>
+            <p class="text-lg md:text-xl text-text-secondary leading-relaxed mb-4">
+                What we hope this study shows is the importance of knowing what policies affect our living spaces and daily lives. Without proper infrastructure,
+                proper action, and proper policy, our country runs the risk of an even worse outlook for air quality and sustainability despite massive moves for industrialization.
+                More than just our own daily usage and emissions, it is important to know how nationwide industry and policy affect us, and how we can contribute
+                to making more sustainable policies a reality.
+            </p>
             <p class="text-lg md:text-xl text-text-secondary leading-relaxed">
             <!-- TODO: fill this in pag tapos na model -->
                 What our model shows is that...
