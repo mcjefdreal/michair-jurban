@@ -356,7 +356,21 @@
     </div>
 </section>
 
-<section id="discussion" class="bg-surface-alt py-20 md:py-28">
+<section id="model" class="bg-surface-alt py-20 md:py-28">
+    <div class="max-w-4xl mx-auto px-6">
+        <div class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-3">Model</h2>
+            <div class="w-16 h-1 bg-accent rounded-full"></div>
+        </div>
+        <div class="p-8 bg-surface rounded-2xl border border-border shadow-sm">
+            <p class="text-lg md:text-xl text-text-secondary leading-relaxed mb-4">
+                <!-- TODO: fill this in -->
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="discussion" class="bg-surface py-20 md:py-28">
     <div class="max-w-4xl mx-auto px-6">
         <div class="mb-10">
             <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-3">Discussion and Conclusions</h2>
