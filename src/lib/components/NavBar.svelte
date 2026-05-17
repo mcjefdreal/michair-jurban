@@ -9,7 +9,7 @@
 		{ label: 'Data', href: '#data' },
 		{ label: 'Results', href: '#results' },
 		{ label: 'Model', href: '#model' },
-		{ label: 'Discussion', href: '#discussion' },
+		{ label: 'Discussion and Conclusions', href: '#discussion' },
 		{ label: 'About', href: '#about' }
 	];
 
