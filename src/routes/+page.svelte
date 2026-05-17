@@ -45,8 +45,8 @@
                 <div class="p-6 bg-surface rounded-xl border border-border shadow-sm">
                     <p class="text-text-secondary leading-relaxed mb-4">
                         <b>Air pollution is considered a major environmental risk factor to human health</b>, driving death and disability as a result of non-communicable diseases. 
-                        When inhaled, fine particulate matter (PM<sub>2.5</sub>) is capable of penetrating the lungs and into the bloodstream, increasing risk of cardiovascular and respiratory diseases.
-                        These disproportionately affects those with preexisting health conditions, especially children and the elderly.
+                        When inhaled, fine particulate matter (PM<sub>2.5</sub>) is capable of penetrating the lungs and into the bloodstream, increasing the risk of cardiovascular and respiratory diseases.
+                        These disproportionately affect those with preexisting health conditions, especially children and the elderly.
                         In 2021, the World Health Organization (2025) estimated that <b>4.3 million lives were lost</b> to causes related to ambient air pollution from PM<sub>2.5</sub>.
                         In 2019, causes related to air pollution were responsible for <b>66,230 deaths in the Philippines, 1310 of which were children (Myllyvirta et al., 2023).</b>
                     </p>
@@ -60,7 +60,7 @@
                         In line with Sustainable Development Goal 11: Sustainable Cities and Communities, our project is one that
                         analyzes the Philippines' current capabilities to monitor its air pollution crisis. The GDP of various regions in the Philippines
                         informs us of the monetary value of the goods that the country produces. With this, we hope to shed light on how regional development and
-                        productivity relates to our air quality, and in turn, our lives.
+                        productivity relate to our air quality, and in turn, our lives.
                     </p>
                 </div>
             </div>
@@ -255,14 +255,28 @@
 <section id="results" class="bg-surface py-20 md:py-28">
     <div class="max-w-5xl mx-auto px-6">
         <div class="mb-10">
-            <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-3">Exploration & Results</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-3">Exploratory Data Analysis</h2>
             <div class="w-16 h-1 bg-accent rounded-full"></div>
         </div>
 
         <div class="flex flex-col gap-12">
             <!-- Nutshell Plot -->
             <div>
-                <h3 class="text-lg font-semibold text-text-primary mb-4">Nutshell Plot</h3>
+                <h3 class="text-xl font-semibold text-text-primary mb-4">Nutshell Plot</h3>
+                <div class="p-6 bg-surface rounded-xl border border-border shadow-sm mb-4">
+                    <p class="text-text-secondary leading-relaxed mb-4">
+                        The following nutshell plot summarizes two parts of the analysis. 
+                        
+                    </p>
+                    <p class="text-text-secondary leading-relaxed">
+                        We visualized the AQI across various cities on the bottom-right portion of the image, with cities
+                        and locations with a higher AQI given a brighter color (as seen on the legend on the left).
+                        The scatterplot shows the different cities with their average AQI plotted against their GDP at current prices.
+                        The cities with high AQI are concentrated around Metro Manila in Luzon, which is indicative of the modern industrial activities and
+                        fossil fuel combustion produced in these areas. Note the large disparity in GDP when comparing all other cities to Makati, Manila, and Quezon City,
+                        indicating the huge amount of product coming from these 3 cities.
+                    </p>
+                </div>
                 <div class="rounded-xl overflow-hidden border border-border shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-surface-alt">
                     <img src={Nutshell} alt="Nutshell plot" class="w-full h-auto" />
                 </div>
@@ -270,7 +284,22 @@
 
             <!-- RQ1 Plots -->
             <div>
-                <h3 class="text-lg font-semibold text-text-primary mb-4">Research Question 1: AQI & Pollutant Trends</h3>
+                <h3 class="text-xl font-semibold text-text-primary mb-4">Research Question 1: AQI & Pollutant Trends</h3>
+                <div class="p-6 bg-surface rounded-xl border border-border shadow-sm mb-4">
+                    <p class="text-text-secondary leading-relaxed mb-4">
+                        This heatmap shows the average monthly AQI of different cities in the Philippines between
+                        January and May 2025. From this, we can see how different cities' air quality fluctuates throughout the start
+                        of a year. In urban cities like Las Piñas, Pasig, Taguig, Makati, and Parañaque, their AQI was somewhat higher at the start of the year as
+                        compared to the summer months in May. In fact, for many of the cities analyzed, we can see a drop in AQI as the year progresses into the summer.
+                        Conversely, many cities stayed around the same range of AQI throughout the entire 5 month span.
+                    </p>
+                    <p class="text-text-secondary leading-relaxed">
+                        The bar graph below also shows the total pollutant concentrations of each city we analyzed. With this visualization, we can see that,
+                        as suggested by the heatmap, a few larger cities in Metro Manila had much higher contentrations of air pollutants. Mainly, Mandaluyong,
+                        Makati, Parañaque, Taguig, and Pasig all had much higher pollutant concentrations (including the aforementioned PM<sub>2.5</sub>). For the first
+                        5 months of 2025, notice that these highly-urbanized cities had much higher averages than the other cities (more than 1300 micrograms per cubic meter).
+                    </p>
+                </div>
                 <div class="flex flex-col gap-6">
                     <div class="rounded-xl overflow-hidden border border-border shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-surface-alt">
                         <img src={AQITrends} alt="AQI plot" class="w-full h-auto" />
@@ -283,7 +312,15 @@
 
             <!-- RQ2 Plot -->
             <div>
-                <h3 class="text-lg font-semibold text-text-primary mb-4">Research Question 2: GDP-AQI Correlation</h3>
+                <h3 class="text-xl font-semibold text-text-primary mb-4">Research Question 2: GDP-AQI Correlation</h3>
+                <div class="p-6 bg-surface rounded-xl border border-border shadow-sm mb-4">
+                    <p class="text-text-secondary leading-relaxed">
+                        This scatterplot, similar to the nutshell, shows the average AQI for all the cities plotted against their GDP at current prices. 
+                        We can note that a few cities, mainly those in highly-urbanized areas such as Metro Manila (Manila, Makati, QC),
+                        have a much higher GDP compared to other cities, with Taguig, Davao, and Pasig following behind. Note the R<sup>2</sup> score of 0.126, as
+                        the data from this analysis will be important to note for our hypothesis testing in the succeeding section.
+                    </p>
+                </div>
                 <div class="rounded-xl overflow-hidden border border-border shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-surface-alt">
                     <img src={GDPAQICorrelation} alt="GDP-AQI correlation plot" class="w-full h-auto" />
                 </div>
@@ -291,11 +328,59 @@
 
             <!-- Hypothesis Testing -->
             <div>
-                <h3 class="text-lg font-semibold text-text-primary mb-4">Hypothesis Testing</h3>
+                <h3 class="text-xl font-semibold text-text-primary mb-4">Hypothesis Testing</h3>
+                <div class="p-6 bg-surface rounded-xl border border-border shadow-sm mb-4">
+                    <p class="text-text-secondary leading-relaxed mb-4">
+                        Recall that the <b>null hypothesis</b> is that there is no significant relationship between a city's GDP and AQI.
+                        Note also that the alternative <b>Research Hypothesis</b> we presented was that regions with a higher GDP per capita
+                        would have a lower Air Quality Index than regions with a lower GDP per capita.
+                    </p>
+                    <p class="text-text-secondary leading-relaxed mb-4">
+                        We used Pearson's correlation and simple linear regression to perform the hypothesis testing on the relationship between average AQI for 2025, and
+                        the GDP for each city. The results showed an r-value of 0.3545 and a p-value of 0.0397 which indicates a moderate positive correlation between GDP and average AQI.
+                        The p-value of less than 0.5 shows this is statistically significant at the 0.05 level. This means we can reject the null hypothesis. Additionally, this means
+                        that the positive relationship between average AQI and GDP in our dataset is the opposite of our initial hypothesis. Instead, regions with higher GDP actually tend to have
+                        worse air quality (higher average AQI) than those with lower GDP.
+                    </p>
+                    <p class="text-text-secondary leading-relaxed">
+                        However, note that our testing showed an R<sup>2</sup> value of 0.1257, which indicates that for our dataset, only about 12.57% of variance in AQI is explained by a city's GDP.
+                        This means that GDP does have somewhat of a correlation to average AQI, but many other factors likely affect AQI as well in ways that GDP simply cannot reflect.
+                    </p>
+                </div>
                 <div class="rounded-xl overflow-hidden border border-border shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-surface-alt">
                     <img src={Hypothesis} alt="Hypothesis testing" class="w-full h-auto" />
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section id="discussion" class="bg-surface-alt py-20 md:py-28">
+    <div class="max-w-4xl mx-auto px-6">
+        <div class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-text-primary mb-3">Discussion and Conclusions</h2>
+            <div class="w-16 h-1 bg-accent rounded-full"></div>
+        </div>
+        <div class="p-8 bg-surface rounded-2xl border border-border shadow-sm">
+            <p class="text-lg md:text-xl text-text-secondary leading-relaxed mb-4">
+                Our study explored the relationship between air quality and economic activity in cities across the Philippines by
+                analyzing Air Quality Index (AQI) and pollutant concentration data from January to May 2025 alongside 2024 GDP data.
+                The results of our analysis showed that several cities in Metro Manila (Las Piñas, Pasig, Taguig, Makati, and Parañaque, among others) consistently
+                showed higher AQI (worse air quality) than other cities in the Philippines.
+            </p>
+            <p class="text-lg md:text-xl text-text-secondary leading-relaxed mb-4">
+                The study also found a statistically significant postitive relationship between average AQI and GDP, which rejects the null hypothesis while also
+                showing the opposite of our initial alternative hypothesis. Regions with higher GDP tended to have higher AQI and worse air quality than regions with lower GDP.
+                <b>Despite this statistically significant result,</b> our findings indicate that GDP does not explain much of the variation of AQI.
+                This could likely be due to the fact that GDP itself is not necessarily an indicator of a region's overall standard of living and well-being, nor is it
+                a reliable predictor for air quality. Although many urbanized cities have somewhat consistent air quality monitoring systems, <b>these monitoring systems only provide information.</b>
+                When no action is taken with the resources that scientific analyses can provide us, it is likely that the required infrastructure and policy changes
+                required for improving air quality will not be created.
+            </p>
+            <p class="text-lg md:text-xl text-text-secondary leading-relaxed">
+            <!-- TODO: fill this in pag tapos na model -->
+                What our model shows is that...
+            </p>
         </div>
     </div>
 </section>
