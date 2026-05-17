@@ -265,16 +265,17 @@
                 <h3 class="text-xl font-semibold text-text-primary mb-4">Nutshell Plot</h3>
                 <div class="p-6 bg-surface rounded-xl border border-border shadow-sm mb-4">
                     <p class="text-text-secondary leading-relaxed mb-4">
-                        The following nutshell plot summarizes two parts of the analysis. 
+                        The following nutshell plot summarizes our exploratory data analysis. 
                         
                     </p>
                     <p class="text-text-secondary leading-relaxed">
+                    <!-- TODO: edit this later to note what the elevation means sa plot -->
                         We visualized the AQI across various cities on the bottom-right portion of the image, with cities
                         and locations with a higher AQI given a brighter color (as seen on the legend on the left).
                         The scatterplot shows the different cities with their average AQI plotted against their GDP at current prices.
                         The cities with high AQI are concentrated around Metro Manila in Luzon, which is indicative of the modern industrial activities and
                         fossil fuel combustion produced in these areas. Note the large disparity in GDP when comparing all other cities to Makati, Manila, and Quezon City,
-                        indicating the huge amount of product coming from these 3 cities.
+                        indicating the huge amount of production coming from these 3 cities.
                     </p>
                 </div>
                 <div class="rounded-xl overflow-hidden border border-border shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-surface-alt">
@@ -289,15 +290,15 @@
                     <p class="text-text-secondary leading-relaxed mb-4">
                         This heatmap shows the average monthly AQI of different cities in the Philippines between
                         January and May 2025. From this, we can see how different cities' air quality fluctuates throughout the start
-                        of a year. In urban cities like Las Piñas, Pasig, Taguig, Makati, and Parañaque, their AQI was somewhat higher at the start of the year as
+                        of the year. In urban cities like Las Piñas, Pasig, Taguig, Makati, and Parañaque, their AQI was somewhat higher at the start of the year as
                         compared to the summer months in May. In fact, for many of the cities analyzed, we can see a drop in AQI as the year progresses into the summer.
-                        Conversely, many cities stayed around the same range of AQI throughout the entire 5 month span.
+                        Conversely, many cities stayed around the same range of AQI throughout the entire 5-month span.
                     </p>
                     <p class="text-text-secondary leading-relaxed">
                         The bar graph below also shows the total pollutant concentrations of each city we analyzed. With this visualization, we can see that,
-                        as suggested by the heatmap, a few larger cities in Metro Manila had much higher contentrations of air pollutants. Mainly, Mandaluyong,
+                        as suggested by the heatmap, a few larger cities in Metro Manila had much higher concentrations of air pollutants. Mainly, Mandaluyong,
                         Makati, Parañaque, Taguig, and Pasig all had much higher pollutant concentrations (including the aforementioned PM<sub>2.5</sub>). For the first
-                        5 months of 2025, notice that these highly-urbanized cities had much higher averages than the other cities (more than 1300 micrograms per cubic meter).
+                        5 months of 2025, notice that these highly urbanized cities had much higher averages than the other cities (more than 1300 micrograms per cubic meter).
                     </p>
                 </div>
                 <div class="flex flex-col gap-6">
@@ -336,20 +337,20 @@
                         would have a lower Air Quality Index than regions with a lower GDP per capita.
                     </p>
                     <p class="text-text-secondary leading-relaxed mb-4">
-                        We used Pearson's correlation and simple linear regression to perform the hypothesis testing on the relationship between average AQI for 2025, and
-                        the GDP for each city. The results showed an r-value of 0.3545 and a p-value of 0.0397 which indicates a moderate positive correlation between GDP and average AQI.
+                        We used Pearson's correlation and simple linear regression to perform the hypothesis testing on the relationship between the average AQI for 2025 and
+                        the GDP for each city. The results showed an r-value of 0.3545 and a p-value of 0.0397, which indicates a moderate positive correlation between GDP and average AQI.
                         The p-value of less than 0.5 shows this is statistically significant at the 0.05 level. This means we can reject the null hypothesis. Additionally, this means
                         that the positive relationship between average AQI and GDP in our dataset is the opposite of our initial hypothesis. Instead, regions with higher GDP actually tend to have
                         worse air quality (higher average AQI) than those with lower GDP.
                     </p>
                     <p class="text-text-secondary leading-relaxed">
-                        However, note that our testing showed an R<sup>2</sup> value of 0.1257, which indicates that for our dataset, only about 12.57% of variance in AQI is explained by a city's GDP.
+                        However, note that our testing showed an R<sup>2</sup> value of 0.1257, which indicates that for our dataset, only about 12.57% of the variance in AQI in our data is explained by a city's GDP.
                         This means that GDP does have somewhat of a correlation to average AQI, but many other factors likely affect AQI as well in ways that GDP simply cannot reflect.
                     </p>
                 </div>
-                <div class="rounded-xl overflow-hidden border border-border shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-surface-alt">
+                <!-- <div class="rounded-xl overflow-hidden border border-border shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-surface-alt">
                     <img src={Hypothesis} alt="Hypothesis testing" class="w-full h-auto" />
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
