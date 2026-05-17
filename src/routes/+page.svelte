@@ -384,13 +384,18 @@
                 showed higher AQI (worse air quality) than other cities in the Philippines.
             </p>
             <p class="text-lg md:text-xl text-text-secondary leading-relaxed mb-4">
-                The study also found a statistically significant postitive relationship between average AQI and GDP, which rejects the null hypothesis while also
+                The study also found a statistically significant positive relationship between average AQI and GDP, which rejects the null hypothesis while also
                 showing the opposite of our initial alternative hypothesis. Regions with higher GDP tended to have higher AQI and worse air quality than regions with lower GDP.
                 <b>Despite this statistically significant result,</b> our findings indicate that GDP does not explain much of the variation of AQI.
                 This could likely be due to the fact that GDP itself is not necessarily an indicator of a region's overall standard of living and well-being, nor is it
-                a reliable predictor for air quality. Although many urbanized cities have somewhat consistent air quality monitoring systems, <b>these monitoring systems only provide information.</b>
+                a reliable predictor of air quality. Although many urbanized cities have somewhat consistent air quality monitoring systems, <b>these monitoring systems only provide information.</b>
                 When no action is taken with the resources that scientific analyses can provide us, it is likely that the required infrastructure and policy changes
-                required for improving air quality will not be created.
+                for improving air quality will not be created.
+            </p>
+            <p class="text-lg md:text-xl text-text-secondary leading-relaxed mb-4">
+                For further studies, we recommend that more factors aside from GDP would be very useful to analyze. As this study implies, many more things
+                affect air quality that are not accounted for, and a future study could benefit from taking these different factors into account to shed light
+                on Philippine air pollution.
             </p>
             <p class="text-lg md:text-xl text-text-secondary leading-relaxed mb-4">
                 What we hope this study shows is the importance of knowing what policies affect our living spaces and daily lives. Without proper infrastructure,
